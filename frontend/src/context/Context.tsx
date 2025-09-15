@@ -13,7 +13,7 @@ export const useBContext = (): ContextType => {
 
 export const ContextProvider: React.FC<ChildrenProps> = ({ children }) => {
     const urlBackend = import.meta.env.VITE_URL_BACKEND;
-
+    console.log("URL:", urlBackend)
     const sendContact = async (formData: ContactFormProps) => {
         try {
 
