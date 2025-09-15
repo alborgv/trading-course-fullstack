@@ -12,5 +12,4 @@ migrations
 node_modules/
 dist/
 .vite/
-.env
 .frontend2/*
